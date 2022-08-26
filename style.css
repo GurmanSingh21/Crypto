@@ -70,12 +70,6 @@ nav .btn{
     font-size: 15px;
     font-weight: 750;
 }
-footer{
-    font-size: 30px;
-    color: darkgoldenrod;
-    margin-top: 80px;
-    text-align: right;
-}
 .coinlist{
     margin-top: 60px;
     display: flex;
@@ -98,4 +92,29 @@ footer{
 }
 .coinlist .coin div p{
     color: darkgoldenrod;
+}
+footer div div a img{
+    width: 40px;
+    display: block;
+    margin-bottom: 5px;
+}
+.foot{
+    background-color: rgb(29, 29, 29);
+    height: 300px;
+}
+footer div div{
+    display: inline-block;
+    padding: 60px 0px 50px 1250px;
+}
+footer div div a {
+    display: flex;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+footer div div a p{
+    margin-left: 10px;
+    margin-top: 9px;
+    font-size: 14px;
+    font-family: monospace;
+    color: rgb(218, 217, 217);
 }
