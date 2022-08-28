@@ -73,7 +73,7 @@ nav .btn{
 .coinlist{
     margin-top: 60px;
     display: flex;
-    margin-left: 800px;
+    float: right;
 }
 .coinlist .coin{
     display: flex;
@@ -103,8 +103,11 @@ footer div div a img{
     height: 300px;
 }
 footer div div{
-    display: inline-block;
-    padding: 60px 0px 50px 1250px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 5%;
+    margin-right: 2%;
 }
 footer div div a {
     display: flex;
